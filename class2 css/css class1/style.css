@@ -1,0 +1,16 @@
+h1{
+    color:aquamarine 
+}
+#salsawit {
+    background-color: hsl(180, 83%, 66%);
+}
+    .salsawit{
+        background-color: aqua;
+    }
+    *{
+        background-color: antiquewhite;
+    }
+    h2,h3{
+        background-color: blueviolet;
+        font-size: 15px;
+    }

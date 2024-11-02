@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            background-color: aqua;
+        }
+        body{
+           /* background-image: url(mario.jpeg);
+            background-repeat: round;
+            background-attachment: fixed;
+            background-position: right bottom; */
+        }
+        #salsawit{
+            background:linear-gradient( to left, red,purple,teal);
+            height: 200px;
+        }
+        #salsawit2{
+            height:200px;
+            background:radial-gradient( circle, yellow 30%,blue 40%,black)
+        }
+        #salsawit3{
+            height: 100px;
+            width: 100px;
+            background-color: rgb(214, 18, 83);
+            animation-name: salsawit3;
+            animation-duration: 6s;
+        }
+        @keyframes salsawit3{
+            0% {background-color: red;}
+        25% {background-color: blue;}
+        }
+    </style>
+</head>
+<body>
+    <p>This is a paragraph</p>
+    <div id="salsawit" ></div>
+    <div id="salsawit2"></div>
+    <div id="salsawit3"></div>
+</body>
+</html>
